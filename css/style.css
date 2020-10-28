@@ -1,0 +1,26 @@
+.btn-three {
+    color: black;
+    background-color: green;
+}
+.btn-two {
+    color: black;
+    background-color: gold;
+}
+.btn-one {
+    color: black;
+    background-color: darkcyan;
+}
+.btn {
+    color: white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    font-size: 28px;
+}
+.container {
+    text-align: center;
+}
+.result {
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
