@@ -1,9 +1,7 @@
-var argButtonName, button_paper, button_rock, button_scissors, buttonTest;
+let argButtonName, button_paper, button_rock, button_scissors, buttonTest;
 
 function buttonClicked(argButtonName) {
   clearMessages();
-  console.log(argButtonName + ' został kliknięty');
-  
   function getMoveName(argMoveId) {
     console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
     if (argMoveId == 1) {
@@ -18,7 +16,6 @@ function buttonClicked(argButtonName) {
     }
   }
   function displayResult(argPlayerMove, argComputerMove) {
-    console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
     if (argPlayerMove == 'papier' && argComputerMove == 'kamień') {
       printMessage('Wygrywasz!');
     } else if (argPlayerMove == 'kamień' && argComputerMove == 'nożyce') {
@@ -39,7 +36,7 @@ function buttonClicked(argButtonName) {
   displayResult(playerMove, computerMove);
 }
 
-var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
 
 buttonRock = document.getElementById('button-rock');
